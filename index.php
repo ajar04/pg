@@ -33,7 +33,7 @@
   	<div class="row">
       <div class="col-sm-4" href="index.php">
         <br>
-        <a href="index.php"> <img src="../gyt/img/ym.jpg"  style="height: 100px; "> </a>
+        <a href="index.php"> <img src="img/ym.jpg"  style="height: 100px; "> </a>
       </div>
       <div class="col-sm-8">
         <br>

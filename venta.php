@@ -16,7 +16,7 @@
 	<div class="row">
       <div class="col-sm-4" href="index.php">
         <br>
-        <a href="index.php"> <img src="../gyt/img/ym.jpg"  style="height: 100px; "> </a>
+        <a href="index.php"> <img src="img/ym.jpg"  style="height: 100px; "> </a>
       </div>
       <div class="col-sm-8">
         <br>
@@ -38,21 +38,21 @@
       <input type="text" class="form-control" id="ocodprefijo" placeholder="Ingrese el prefijo" name="prefijo">
     </div>
     <div class="form-group">
-      <label for="email">Numero del pedido.:</label>
-      <input type="text" class="form-control" id="onumero" placeholder="Ingrese el numero del pedido" name="fecha">
+      <label for="pedido">Numero del pedido.:</label>
+      <input type="text" class="form-control" id="onumero" placeholder="Ingrese el numero del pedido" name="pedido">
     </div>
     <div class="form-group">
-      <label for="pwd">Fecha de creacion del pedido(dd/MM/yyyy).:</label>
-      <input type="text" class="form-control" id="ofecha" placeholder="Ingrese Fecha de Creacion" name="pwd">
+      <label for="fecha">Fecha de creacion del pedido(dd/MM/yyyy).:</label>
+      <input type="date" class="form-control" id="ofecha" placeholder="Ingrese Fecha de Creacion" name="fecha">
     </div>
 	
 	<div class="form-group">
-      <label for="pwd">Codigo del tercero cliente:</label>
-      <input type="text" class="form-control" id="ocodcliente" placeholder="Ingrese el Codigo del tercero cliente" name="pwd">
+      <label for="cliente">Codigo del tercero cliente:</label>
+      <input type="text" class="form-control" id="ocodcliente" placeholder="Ingrese el Codigo del tercero cliente" name="cliente">
     </div>
 	<div class="form-group">
-      <label for="pwd">Codigo tipo de forma de pago:</label>
-      <input type="text" class="form-control" id="ocodformapago" placeholder="Ingrese el Codigo tipo de forma de pago" name="pwd">
+      <label for="pago">Codigo tipo de forma de pago:</label>
+      <input type="text" class="form-control" id="ocodformapago" placeholder="Ingrese el Codigo tipo de forma de pago" name="pago">
     </div>
 <hr>
 <button data-toggle="modal" data-target="#myModalNorm" type="button" class="btn">Agregar items del recibo de caja</button>
@@ -101,8 +101,7 @@
                 <form role="form">
                   <div class="form-group">
                     <label for="documento">Codigo del Articulo</label>
-                      <input type="text" class="form-control"
-                      id="ocodmat" placeholder="Ingrese el Codigo del Articulo" />
+                      <input type="text" class="form-control" id="ocodmat" placeholder="Ingrese el Codigo del Articulo" />
                   </div>
                   <div class="form-group">
                     <label for="item">Codigo de la bodega.</label>

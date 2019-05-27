@@ -16,7 +16,7 @@
 	<div class="row">
       <div class="col-sm-4" href="index.php">
         <br>
-        <a href="index.php"> <img src="../gyt/img/ym.jpg"  style="height: 100px; "> </a>
+        <a href="index.php"> <img src="img/ym.jpg"  style="height: 100px; "> </a>
       </div>
       <div class="col-sm-8">
         <br>
@@ -38,17 +38,17 @@
       <input type="text" class="form-control" id="prefijo" placeholder="Ingrese el prefijo" name="prefijo">
     </div>
     <div class="form-group">
-      <label for="email">Fecha de creacion del recibo(dd/MM/yyyy):</label>
-      <input type="text" class="form-control" id="fecha" placeholder="dd/MM/yyyy" name="fecha">
+      <label for="fecha">Fecha de creacion del recibo(dd/MM/yyyy):</label>
+      <input type="date" class="form-control" id="fecha" placeholder="dd/MM/yyyy" name="fecha">
     </div>
     <div class="form-group">
-      <label for="pwd">Codigo del tercero cliente:</label>
-      <input type="text" class="form-control" id="cliente" placeholder="Ingrese el codigo del tercero cliente." name="pwd">
+      <label for="tercero">Codigo del tercero cliente:</label>
+      <input type="text" class="form-control" id="cliente" placeholder="Ingrese el codigo del tercero cliente." name="tercero">
     </div>
 	
 	<div class="form-group">
-      <label for="pwd">Codigo del tercero cobrador:</label>
-      <input type="text" class="form-control" id="cobrador" placeholder="Ingrese el codigo del tercero cobrador." name="pwd">
+      <label for="cobrador">Codigo del tercero cobrador:</label>
+      <input type="text" class="form-control" id="cobrador" placeholder="Ingrese el codigo del tercero cobrador." name="cobrador">
     </div>
 <hr>
 <button data-toggle="modal" data-target="#myModalNorm" type="button" class="btn">Agregar items del recibo de caja</button>
