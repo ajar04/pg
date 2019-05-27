@@ -132,15 +132,15 @@
                   </div>
 				  
 				  <div class="form-group">
-                    <label for="tercero">Codigo del tercero cliente.</label>
+                    <label for="tercero">Codigo del  cliente.</label>
                       <input type="text" class="form-control"
-                          id="ocodtercero" placeholder="Ingrese el Codigo del concepto."/>
+                          id="ocodtercero" placeholder="Ingrese el Codigo del clientes."/>
                   </div>
 				  
 				  <div class="form-group">
                     <label for="valor">Valor del documento.</label>
                       <input type="text" class="form-control"
-                          id="ovalor" placeholder="Ingrese el Codigo del concepto."/>
+                          id="ovalor" placeholder="Ingrese el Valor del documento."/>
                   </div>
 
                 </form>

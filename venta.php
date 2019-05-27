@@ -1,4 +1,4 @@
-﻿ <html>
+ <html>
 <head> 
 	<title>CONFECCIONES YAMILE</title>
 <meta charset="utf-8">
@@ -43,7 +43,7 @@
     </div>
     <div class="form-group">
       <label for="pwd">Fecha de creacion del pedido(dd/MM/yyyy).:</label>
-      <input type="text" class="form-control" id="ofecha" placeholder="Ingrese el codigo del tercero cliente." name="pwd">
+      <input type="text" class="form-control" id="ofecha" placeholder="Ingrese Fecha de Creacion" name="pwd">
     </div>
 	
 	<div class="form-group">
@@ -100,9 +100,9 @@
                 
                 <form role="form">
                   <div class="form-group">
-                    <label for="documento">Codigo del material</label>
+                    <label for="documento">Codigo del Articulo</label>
                       <input type="text" class="form-control"
-                      id="ocodmat" placeholder="Ingrese el Codigo del material" />
+                      id="ocodmat" placeholder="Ingrese el Codigo del Articulo" />
                   </div>
                   <div class="form-group">
                     <label for="item">Codigo de la bodega.</label>
